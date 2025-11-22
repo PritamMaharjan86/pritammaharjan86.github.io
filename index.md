@@ -1,6 +1,3 @@
----
-layout: default
----
 
 # **Pritam Maharjan**
 Punchbowl, NSW 2196  
