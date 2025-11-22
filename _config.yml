@@ -1,18 +1,5 @@
-title: "Pritam Maharjan"
-description: "Full Stack Developer • React • Node.js • MongoDB"
+
 theme: jekyll-theme-minimal
-
-# Site settings
-name: "Pritam Maharjan"
-role: "Full Stack Web Developer"
-location: "Kathmandu, Nepal"
-email: "pritam@example.com"
-website: "https://pritammaharjan.vercel.app"
-
-# Social links
-github_username: PritamMaharjan86
-linkedin_username: your-linkedin
-instagram_username: your-instagram
 
 # Build plugins
 plugins:
