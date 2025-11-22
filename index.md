@@ -5,8 +5,8 @@ layout: default
 # **Pritam Maharjan**
 ### **Full Stack Web Developer**
 
-📍 Kathmandu, Nepal  
-📧 pritam@example.com  
+📍 Sydney
+📧 primgdev@gmail.com  
 🌐 [pritammaharjan.vercel.app](https://pritammaharjan.vercel.app)  
 💻 GitHub: [PritamMaharjan86](https://github.com/PritamMaharjan86)
 
@@ -43,26 +43,19 @@ Modern responsive portfolio built with React + Tailwind.
 
 ---
 
-### **🛒 E-commerce API**
-Node.js REST API with auth and product management.  
-🔗 https://github.com/PritamMaharjan86
-
----
-
 ## 💼 **Experience**
 
-### **Freelance Web Developer**  
+### **Learning Web Dev**  
 **2023 – Present**
 - Build responsive websites & full stack web apps  
-- Develop REST APIs and dashboards  
-- Work with clients and small businesses  
+- Develop REST APIs and dashboards   
 
 ---
 
 ## 🎓 **Education**
-**Bachelor of Computer Science**  
-(Your University Here)  
-2024  
+**Bachelor in Information Technology (Game Programming)**  
+Academy of Interactive Technology  
+2018 - 2021 
 
 ---
 
