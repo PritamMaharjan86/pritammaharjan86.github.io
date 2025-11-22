@@ -1,4 +1,79 @@
-theme: jekyll-theme-minimal
-title: pritammaharjan86's homepage
-description: Bookmark this to keep an eye on my project updates!
+# ============================
+#     BASIC SITE SETTINGS
+# ============================
+title: "Pritam Maharjan"
+description: "Software Developer • Full Stack • React • Node.js • MongoDB"
+url: "https://pritammaharjan.github.io"
+baseurl: ""
 
+theme: jekyll-theme-minimal   # You can change to any GitHub Pages theme
+
+# ============================
+#     PERSONAL INFORMATION
+# ============================
+name: "Pritam Maharjan"
+role: "Full Stack Web Developer"
+location: "Kathmandu, Nepal"
+email: "pritam@example.com"   # change to your real email
+website: "pritammaharjan.vercel.app"
+
+# ============================
+#     SOCIAL PROFILES
+# ============================
+social_links:
+  github: "PritamMaharjan86"
+  linkedin: "your-linkedin-username"
+  twitter: ""
+  instagram: ""
+  website: "pritammaharjan.vercel.app"
+
+# ============================
+#     RESUME SECTIONS
+# ============================
+about: |
+  Passionate Full Stack Developer specializing in React, Node.js, and MongoDB. 
+  Focused on building clean, scalable, production-ready applications with a strong understanding 
+  of frontend and backend workflows.
+
+skills:
+  - JavaScript / TypeScript
+  - React, Redux, TailwindCSS
+  - Node.js, Express
+  - MongoDB, Mongoose
+  - Git, GitHub, REST APIs
+  - Deployment: Vercel, Render, GitHub Pages
+
+projects:
+  - name: "Food Order App"
+    description: "Full-stack food ordering system with cart, orders, admin panel."
+    link: "https://github.com/PritamMaharjan86/food-order-app"
+
+  - name: "Portfolio Website"
+    description: "Responsive portfolio built with React & Tailwind."
+    link: "https://pritammaharjan.vercel.app"
+
+  - name: "E-commerce API"
+    description: "Node.js REST API with authentication and product management."
+    link: "https://github.com/PritamMaharjan86"
+
+experience:
+  - company: "Freelance Developer"
+    role: "Full Stack Web Developer"
+    period: "2023 – Present"
+    details:
+      - "Build custom websites and web apps"
+      - "Implement REST APIs and admin dashboards"
+      - "Work with small businesses and individuals"
+
+education:
+  - degree: "Bachelor of Computer Science"
+    school: "Your University"
+    year: "2024"
+
+# ============================
+#     EXTRA OPTIONS
+# ============================
+show_downloads: false
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
