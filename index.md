@@ -1,5 +1,4 @@
 
-# **Pritam Maharjan**
 Punchbowl, NSW 2196  
 ✉️ primgdev@gmail.com  
 
