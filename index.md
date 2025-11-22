@@ -2,63 +2,66 @@
 layout: default
 ---
 
-# **Pritam Maharjan**
-### **Full Stack Web Developer**
+<div align="center">
 
-📍 Sydney
-📧 primgdev@gmail.com  
-🌐 [pritammaharjan.vercel.app](https://pritammaharjan.vercel.app)  
-💻 GitHub: [PritamMaharjan86](https://github.com/PritamMaharjan86)
+# 👋 Hi, I'm **Pritam Maharjan**  
+### Full Stack Developer • MERN Stack  
 
----
+Building modern, fast and scalable web applications.
 
-## 🧑‍💻 **About Me**
-Passionate Full Stack Developer specializing in MERN stack development — React, Node.js, Express, and MongoDB. I build clean, scalable applications with strong attention to UI/UX and performance.
+<br>
 
----
+[GitHub](https://github.com/PritamMaharjan86) • 
+[Portfolio](https://pritammaharjan.vercel.app) • 
+Email: **pritam@example.com**
 
-## 🛠 **Skills**
-
-- JavaScript / TypeScript  
-- React, Redux, TailwindCSS  
-- Node.js, Express  
-- MongoDB, Mongoose  
-- REST APIs  
-- Git / GitHub  
-- Deployment: Vercel, Render, GitHub Pages  
+</div>
 
 ---
 
-## 🚀 **Projects**
+## 🚀 What I Do
 
-### **🍽 Food Order App**
-Full-stack food ordering system with cart, orders, admin panel.  
+I specialize in **MERN stack development**, crafting smooth user experiences and powerful backend services.
+
+- ⚡ Full Stack Web Apps  
+- 🛒 Ecommerce & Ordering Systems  
+- 🔐 Authentication + APIs  
+- 🚀 Fast, clean UI with React & Tailwind  
+- 🗄 MongoDB data architecture  
+
+---
+
+## 🧩 Featured Projects
+
+### 🥡 **Food Order App**
+A complete MERN food ordering system with admin dashboard, cart, orders & more.  
+**Tech:** React, Node.js, Express, MongoDB  
 🔗 https://github.com/PritamMaharjan86/food-order-app
 
 ---
 
-### **🌐 Portfolio Website**
-Modern responsive portfolio built with React + Tailwind.  
-🔗 https://pritammaharjan.vercel.app
+### 🎨 **Portfolio Website**
+My personal developer portfolio.  
+**Tech:** React + Tailwind CSS  
+🌐 https://pritammaharjan.vercel.app
 
 ---
 
-## 💼 **Experience**
-
-### **Learning Web Dev**  
-**2023 – Present**
-- Build responsive websites & full stack web apps  
-- Develop REST APIs and dashboards   
+### 🛍 **E-commerce REST API**
+Node.js API with JWT auth, product CRUD, cart, orders.  
+🔗 https://github.com/PritamMaharjan86
 
 ---
 
-## 🎓 **Education**
-**Bachelor in Information Technology (Game Programming)**  
-Academy of Interactive Technology  
-2018 - 2021 
+## 📌 My Workflow Philosophy
+
+- Clean, readable code  
+- Component-driven UI  
+- API-first thinking  
+- Fast iteration & deployment  
+- Always learning  
 
 ---
 
-## 📞 Contact
-If you want to collaborate or hire me — feel free to reach out!
+## 📈 Experience Timeline
 
