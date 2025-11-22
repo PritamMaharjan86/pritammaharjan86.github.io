@@ -1,6 +1,1 @@
 
-theme: jekyll-theme-minimal
-
-# Build plugins
-plugins:
-  - jekyll-seo-tag
