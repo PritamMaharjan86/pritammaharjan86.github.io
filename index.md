@@ -18,7 +18,7 @@ JavaScript • HTML5 • CSS3 • PHP • Python • Java
 React.js • Node.js • CakePHP • Unity
 
 ### **Databases**
-MySQL
+MySQL • MongoDB 
 
 ### **Tools**
 Git • Bitbucket • Postman • Jira • Trello • Confluence
@@ -27,7 +27,7 @@ Git • Bitbucket • Postman • Jira • Trello • Confluence
 Umbraco • WordPress
 
 ### **Other**
-REST APIs • Responsive Design • i18n (internationalization)
+REST APIs • Responsive Design 
 
 ---
 
