@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Pritam System Log</title>
+<title class= "title">Pritam System Log</title>
 
 <style>
   body {
@@ -29,6 +29,12 @@
 
   .ok {
     color: #00ff7f; /* green OK text */
+
+.title
+    {
+      color:#fff;
+    }
+  
   }
 </style>
 </head>
