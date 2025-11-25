@@ -1,75 +1,66 @@
-// ------------------------------------------------------
-//   RENDERING <PRITAM /> ...
-// ------------------------------------------------------
+────────────────────────────────────────────────────────────
+   INITIALIZING PRITAM-MAHARJAN.WEB.DEV v1.0.0
+────────────────────────────────────────────────────────────
 
-import React from "react";
+[BOOT] Loading system… OK  
+[BOOT] Checking environment… Sydney, Australia  
+[BOOT] Establishing contact… primgdev@gmail.com  
 
-const Pritam = () => {
-  return (
-    <Human version="1.0.0">
-      <header>
-        <Identity
-          name="Pritam Maharjan"
-          role="Software Engineer (Web)"
-          email="primgdev@gmail.com"
-          location="Sydney, Australia"
-        />
-      </header>
+────────────────────────────────────────────────────────────
+   MODULE: IDENTITY
+────────────────────────────────────────────────────────────
+name: "Pritam Maharjan"
+role: "Software Engineer (Web)"
+status: "always learning"
 
-      <section title="about">
-        <p>
-          I write code the same way I learn — one component at a time.
-          I enjoy small things that make big differences:
-          clean structure, readable logic, and experiences
-          that feel effortless for the user.
-        </p>
-      </section>
+────────────────────────────────────────────────────────────
+   MODULE: PURPOSE
+────────────────────────────────────────────────────────────
+> Crafting clean, predictable, human-centered web experiences.
+> Building interfaces that feel simple and behave consistently.
+> Writing code that explains itself.
 
-      <section title="philosophy">
-        <p>
-          const principles = [
-            "clarity over complexity",
-            "less code, more intention",
-            "design is behaviour",
-            "simplicity scales"
-          ];
-        </p>
-      </section>
+────────────────────────────────────────────────────────────
+   MODULE: STACK
+────────────────────────────────────────────────────────────
+frontend:
+  • UI logic
+  • Component thinking
+  • State patterns
 
-      <section title="stack">
-        <Stack
-          frontend=["Components", "State", "UI Logic"]
-          backend=["APIs", "CMS Systems", "Performance Fixes"]
-          tools=["Git", "Debugging", "Problem Solving"]
-        />
-      </section>
+backend:
+  • APIs
+  • CMS systems
+  • Performance debugging
 
-      <section title="journey">
-        <Timeline>
-          <Step at="Cypha Interactive">Shipped CMS features</Step>
-          <Step at="GO Tech International">Improved platform stability</Step>
-          <Step at="PIEX Education">Created interactive experiences</Step>
-        </Timeline>
-      </section>
+tools:
+  • Git, Postman, Bitbucket
+  • Problem-solving mindset
 
-      <section title="current">
-        <p>
-          return (
-            <Growth>
-              Learning deeper patterns.  
-              Building cleaner UI.  
-              Improving every commit.  
-            </Growth>
-          );
-        </p>
-      </section>
+────────────────────────────────────────────────────────────
+   MODULE: EXPERIENCE
+────────────────────────────────────────────────────────────
+[Cypha Interactive] Junior .NET Developer  
+[GO Tech International] Software Engineer  
+[PIEX Education] Developer Intern  
 
-      <footer>
-        <Contact email="primgdev@gmail.com" />
-        <p>// end of render</p>
-      </footer>
-    </Human>
-  );
-};
+────────────────────────────────────────────────────────────
+   MODULE: CURRENT_BUILD
+────────────────────────────────────────────────────────────
+changelog:
+  + refactoring mindset
+  + better architecture decisions
+  + deeper understanding of systems
+  + continuous improvement
 
-export default Pritam;
+versionNotes:
+  "building with intention"
+
+────────────────────────────────────────────────────────────
+   FINALIZE RENDER
+────────────────────────────────────────────────────────────
+[OK] Pritam-Maharjan has been successfully initialized.  
+[OK] All modules functioning.  
+[OK] Ready to create, learn, and build.
+
+└── End of log.
