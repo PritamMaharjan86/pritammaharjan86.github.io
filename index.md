@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 40px 0;
+    padding: 10px 0;
   }
 
   .page {
