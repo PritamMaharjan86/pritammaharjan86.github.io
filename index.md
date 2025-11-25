@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title class= "title">Pritam System Log</title>
+<title class="section-line">Pritam System Log</title>
 
 <style>
   body {
