@@ -1,72 +1,65 @@
 <style>
   html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
     background: #f0f0f0;
-    overflow: hidden; /* prevent scroll */
   }
 
   body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 40px 0;
   }
 
   .page {
     width: 800px;
-    height: 1120px; /* A4 size */
     background: white;
-    padding: 25px 35px; /* reduced padding */
+    padding: 25px 35px;
     box-shadow: 0 0 12px rgba(0,0,0,0.18);
     font-family: Arial, sans-serif;
-    line-height: 1.25; /* tighter lines */
-    font-size: 13px; /* smaller font */
-    overflow: hidden; /* no scroll inside */
+    line-height: 1.4;
+    font-size: 14px;
   }
 
   h1 {
     margin-top: 0;
     margin-bottom: 4px;
-    font-size: 22px; /* smaller */
+    font-size: 26px;
     font-weight: bold;
   }
 
   h2 {
-    margin-top: 16px;
-    font-size: 16px;
+    margin-top: 22px;
+    font-size: 18px;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 2px;
-    margin-bottom: 8px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
   }
 
   h3 {
     margin: 6px 0 2px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
   }
 
   .sub {
     color: #555;
-    font-size: 12px;
-    margin-bottom: 4px;
+    font-size: 13px;
+    margin-bottom: 6px;
   }
 
   ul {
-    padding-left: 18px;
-    margin-top: 2px;
-    margin-bottom: 4px;
-  }
-
-  p { 
-    margin: 4px 0;
+    padding-left: 20px;
+    margin-top: 4px;
+    margin-bottom: 8px;
   }
 
   .footer {
-    margin-top: 8px;
+    margin-top: 20px;
     text-align: center;
     color: #777;
-    font-size: 12px;
+    font-size: 13px;
   }
 </style>
 
