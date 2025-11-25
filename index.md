@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<h1 class="ok>Pritam System Log</h1>
-
+<title>Pritam System Log</title>
 
 <style>
   body {
@@ -13,6 +12,7 @@
     padding: 10px;
     white-space: pre-wrap;
     line-height: 1.6;
+    margin: 0;
   }
 
   .container {
@@ -30,17 +30,20 @@
 
   .ok {
     color: #00ff7f; /* green OK text */
+  }
 
-.title
-    {
-      color:#fff;
-    }
-  
+  h1 {
+    color: #00ff7f;
+    text-align: center;
+    margin-bottom: 20px;
   }
 </style>
-</head>
 
+</head>
 <body>
+
+<h1>Pritam System Log</h1>
+
 <div class="container">
 
 <span class="section-line">────────────────────────────────────────────────────────────</span>
