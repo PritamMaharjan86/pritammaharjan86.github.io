@@ -9,7 +9,7 @@
     background: #000;
     color: #fff;
     font-family: "Fira Code", monospace, Consolas, monospace;
-    padding: 40px;
+    padding: 10px;
     white-space: pre-wrap;
     line-height: 1.6;
   }
