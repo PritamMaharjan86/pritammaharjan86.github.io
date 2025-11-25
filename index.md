@@ -1,7 +1,6 @@
 <style>
   html, body {
     height: 100%;
-    overflow: hidden; /* disable scroll */
     margin: 0;
     padding: 0;
     background: #f0f0f0;
