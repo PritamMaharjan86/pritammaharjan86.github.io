@@ -2,121 +2,173 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Pritam Maharjan | Portfolio</title>
+<title>Pritam System Log</title>
 
 <style>
+  :root {
+    --bg: #0b0f14;
+    --panel: #0f1623;
+    --primary: #00ffc8;
+    --secondary: #82aaff;
+    --success: #00ff7f;
+    --text: #d6deeb;
+    --muted: #7f8fa6;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     margin: 0;
-    font-family: "Fira Code", monospace, Consolas, monospace;
-    background: #0f0f10;
-    color: #e1e1e1;
-    line-height: 1.6;
+    background: radial-gradient(circle at top, #0f172a, #020617);
+    color: var(--text);
+    font-family: "Fira Code", Consolas, monospace;
+    line-height: 1.7;
+    padding: 20px;
   }
 
-  header {
-    background: #111;
-    padding: 60px 20px;
-    text-align: center;
-  }
-
-  header h1 {
-    font-size: 2.5rem;
-    color: #00ff7f;
-    margin: 0;
-  }
-
-  header p {
-    font-size: 1.1rem;
-    margin-top: 8px;
-    color: #82aaff;
-  }
-
-  main {
+  .container {
     max-width: 900px;
     margin: auto;
-    padding: 30px 20px;
+    background: rgba(15, 22, 35, 0.75);
+    border: 1px solid rgba(0, 255, 200, 0.15);
+    border-radius: 14px;
+    padding: 28px;
+    box-shadow:
+      0 0 40px rgba(0, 255, 200, 0.08),
+      inset 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    text-align: center;
+    color: var(--success);
+    letter-spacing: 0.15em;
+    margin-bottom: 30px;
+    text-shadow: 0 0 12px rgba(0, 255, 127, 0.4);
   }
 
   .section {
-    margin-bottom: 40px;
+    margin: 28px 0;
   }
 
-  .section h2 {
-    font-size: 1.8rem;
-    color: #00ffc8;
-    border-bottom: 2px solid #00ffc8;
-    padding-bottom: 6px;
+  .divider {
+    color: var(--primary);
+    opacity: 0.8;
   }
 
-  .skills-list,
-  .experience-list {
-    list-style: none;
-    padding: 0;
+  .section-title {
+    color: var(--primary);
+    letter-spacing: 0.2em;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
   }
 
-  .skills-list li,
-  .experience-list li {
-    margin-bottom: 8px;
-    padding-left: 12px;
-    position: relative;
+  .highlight {
+    color: var(--secondary);
   }
 
-  .skills-list li::before,
-  .experience-list li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #00ff7f;
-  }
-
-  .contact a {
-    color: #82aaff;
-    text-decoration: none;
+  .ok {
+    color: var(--success);
     font-weight: bold;
+  }
+
+  .muted {
+    color: var(--muted);
+  }
+
+  .log-line {
+    margin: 4px 0;
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 10px;
+    background: var(--success);
+    margin-left: 4px;
+    animation: blink 1.1s infinite;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
   }
 </style>
 </head>
+
 <body>
 
-<header>
-  <h1>Pritam Maharjan</h1>
-  <p>Software Engineer | Web Developer | Always Learning</p>
-</header>
+<h1>PRITAM · SYSTEM LOG</h1>
 
-<main>
+<div class="container">
 
-  <div class="section about">
-    <h2>About Me</h2>
-    <p>Hello! I’m a passionate web developer focused on building clean, predictable, human-centered web experiences. I create interfaces that feel simple and behave consistently — with code that explains itself.</p>
+  <div class="section">
+    <div class="divider">────────────────────────────────────────</div>
+    <div class="log-line">
+      INITIALIZING <span class="highlight">pritammaharjan.dev</span> v1.0.0
+    </div>
+    <div class="divider">────────────────────────────────────────</div>
+
+    <div class="log-line">[BOOT] Loading system… <span class="ok">OK</span></div>
+    <div class="log-line">[BOOT] Environment detected… Sydney, Australia</div>
+    <div class="log-line">
+      [BOOT] Contact channel… <span class="highlight">primgdev@gmail.com</span>
+    </div>
   </div>
 
-  <div class="section skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>Frontend Development (React, Tailwind CSS)</li>
-      <li>UI Logic & Component Thinking</li>
-      <li>Backend APIs & Performance Debugging</li>
-      <li>Version Control with Git</li>
-      <li>Problem-Solving Mindset</li>
-    </ul>
+  <div class="section">
+    <div class="section-title">MODULE: IDENTITY</div>
+    <div class="divider">────────────────────────────────────────</div>
+
+    <div class="log-line">name: <span class="highlight">"Pritam Maharjan"</span></div>
+    <div class="log-line">role: "Software Engineer (Web)"</div>
+    <div class="log-line">status: <span class="ok">"always learning"</span></div>
   </div>
 
-  <div class="section experience">
-    <h2>Experience</h2>
-    <ul class="experience-list">
-      <li>Junior .NET Developer – Cypha Interactive</li>
-      <li>Software Engineer – GO Tech International</li>
-      <li>Developer Intern – PIEX Education</li>
-    </ul>
+  <div class="section">
+    <div class="section-title">MODULE: PURPOSE</div>
+    <div class="divider">────────────────────────────────────────</div>
+
+    <div class="log-line muted">
+      > Crafting clean, predictable, human-centered web experiences.
+    </div>
+    <div class="log-line muted">
+      > Building interfaces that feel simple and behave consistently.
+    </div>
+    <div class="log-line muted">
+      > Writing code that explains itself.
+    </div>
   </div>
 
-  <div class="section contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:primgdev@gmail.com">primgdev@gmail.com</a></p>
-    <p>Location: Sydney, Australia</p>
+  <div class="section">
+    <div class="section-title">MODULE: STACK</div>
+    <div class="divider">────────────────────────────────────────</div>
+
+    <div class="log-line">frontend → UI logic, components, state</div>
+    <div class="log-line">backend → APIs, CMS, performance</div>
+    <div class="log-line">tools → Git, Postman, Bitbucket</div>
   </div>
 
-</main>
+  <div class="section">
+    <div class="section-title">MODULE: EXPERIENCE</div>
+    <div class="divider">────────────────────────────────────────</div>
+
+    <div class="log-line">• Cypha Interactive — Junior .NET Developer</div>
+    <div class="log-line">• GO Tech International — Software Engineer</div>
+    <div class="log-line">• PIEX Education — Developer Intern</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">FINALIZE RENDER</div>
+    <div class="divider">────────────────────────────────────────</div>
+
+    <div class="log-line"><span class="ok">[OK]</span> System initialized</div>
+    <div class="log-line"><span class="ok">[OK]</span> Modules operational</div>
+    <div class="log-line">
+      <span class="ok">[OK]</span> Ready to build<span class="cursor"></span>
+    </div>
+  </div>
+
+</div>
 
 </body>
 </html>
