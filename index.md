@@ -1,117 +1,122 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Pritam System Log</title>
+<title>Pritam Maharjan | Portfolio</title>
 
 <style>
   body {
-    background: #000;
-    color: #fff;
+    margin: 0;
     font-family: "Fira Code", monospace, Consolas, monospace;
-    padding: 10px;
-    white-space: pre-wrap;
+    background: #0f0f10;
+    color: #e1e1e1;
     line-height: 1.6;
+  }
+
+  header {
+    background: #111;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    color: #00ff7f;
     margin: 0;
   }
 
-  .container {
+  header p {
+    font-size: 1.1rem;
+    margin-top: 8px;
+    color: #82aaff;
+  }
+
+  main {
     max-width: 900px;
     margin: auto;
+    padding: 30px 20px;
   }
 
-  .section-line {
-    color: #00ffc8; /* neon teal line */
+  .section {
+    margin-bottom: 40px;
   }
 
-  .highlight {
-    color: #82aaff; /* blue text */
+  .section h2 {
+    font-size: 1.8rem;
+    color: #00ffc8;
+    border-bottom: 2px solid #00ffc8;
+    padding-bottom: 6px;
   }
 
-  .ok {
-    color: #00ff7f; /* green OK text */
+  .skills-list,
+  .experience-list {
+    list-style: none;
+    padding: 0;
   }
 
-  h1 {
+  .skills-list li,
+  .experience-list li {
+    margin-bottom: 8px;
+    padding-left: 12px;
+    position: relative;
+  }
+
+  .skills-list li::before,
+  .experience-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
     color: #00ff7f;
-    text-align: center;
-    margin-bottom: 20px;
+  }
+
+  .contact a {
+    color: #82aaff;
+    text-decoration: none;
+    font-weight: bold;
   }
 </style>
-
 </head>
 <body>
 
-<h1>Pritam System Log</h1>
+<header>
+  <h1>Pritam Maharjan</h1>
+  <p>Software Engineer | Web Developer | Always Learning</p>
+</header>
 
-<div class="container">
+<main>
 
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-   INITIALIZING PRITAM-MAHARJAN.WEB.DEV v1.0.0
-<span class="section-line">────────────────────────────────────────────────────────────</span>
+  <div class="section about">
+    <h2>About Me</h2>
+    <p>Hello! I’m a passionate web developer focused on building clean, predictable, human-centered web experiences. I create interfaces that feel simple and behave consistently — with code that explains itself.</p>
+  </div>
 
-[BOOT] Loading system… <span class="ok">OK</span>  
-[BOOT] Checking environment… Sydney, Australia  
-[BOOT] Establishing contact… <span class="highlight">primgdev@gmail.com</span>  
+  <div class="section skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Frontend Development (React, Tailwind CSS)</li>
+      <li>UI Logic & Component Thinking</li>
+      <li>Backend APIs & Performance Debugging</li>
+      <li>Version Control with Git</li>
+      <li>Problem-Solving Mindset</li>
+    </ul>
+  </div>
 
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-   MODULE: IDENTITY
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-name: "Pritam Maharjan"  
-role: "Software Engineer (Web)"  
-status: "always learning"  
+  <div class="section experience">
+    <h2>Experience</h2>
+    <ul class="experience-list">
+      <li>Junior .NET Developer – Cypha Interactive</li>
+      <li>Software Engineer – GO Tech International</li>
+      <li>Developer Intern – PIEX Education</li>
+    </ul>
+  </div>
 
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-   MODULE: PURPOSE
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-> Crafting clean, predictable, human-centered web experiences.  
-> Building interfaces that feel simple and behave consistently.  
-> Writing code that explains itself.  
+  <div class="section contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:primgdev@gmail.com">primgdev@gmail.com</a></p>
+    <p>Location: Sydney, Australia</p>
+  </div>
 
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-   MODULE: STACK
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-frontend:  
-  • UI logic  
-  • Component thinking  
-  • State patterns  
+</main>
 
-backend:  
-  • APIs  
-  • CMS systems  
-  • Performance debugging  
-
-tools:  
-  • Git, Postman, Bitbucket  
-  • Problem-solving mindset  
-
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-   MODULE: EXPERIENCE
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-[Cypha Interactive] Junior .NET Developer  
-[GO Tech International] Software Engineer  
-[PIEX Education] Developer Intern  
-
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-   MODULE: CURRENT_BUILD
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-changelog:  
-  + refactoring mindset  
-  + better architecture decisions  
-  + deeper understanding of systems  
-  + continuous improvement  
-
-versionNotes:  
-  "building with intention"  
-
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-   FINALIZE RENDER
-<span class="section-line">────────────────────────────────────────────────────────────</span>
-<span class="ok">[OK]</span> Pritam-Maharjan has been successfully initialized.  
-<span class="ok">[OK]</span> All modules functioning.  
-<span class="ok">[OK]</span> Ready to create, learn, and build.  
-
-└── End of log.
-
-</div>
 </body>
 </html>
